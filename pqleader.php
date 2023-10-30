@@ -1,3 +1,0 @@
-?php
-print = %PQ.LEADERBOARD%
-?
