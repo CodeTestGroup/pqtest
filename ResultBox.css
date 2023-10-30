@@ -1,0 +1,83 @@
+.ResultBox{
+    display: flex;flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+  }
+.Results{
+    padding:30px;
+}
+  .ResultBoxContainer { 
+    border-radius: 8px;   
+    height: 50vh; display: 
+    flex;align-items: center;
+    justify-content: center; 
+    margin-top: 1px; padding-top:1px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(154, 184, 248);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+    
+   }
+   .ResultBoxContainerSmall { 
+    border-radius: 8px;   
+    height: 50vh; display: 
+    flex;align-items: center;
+    justify-content: center; 
+    margin-top: 1px; padding-top:1px;
+    width:auto;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px;
+    padding:10px;
+    background-color: rgb(154, 184, 248);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+    font-size:15px;
+
+   }
+
+   
+.ResultBOX{
+    color:var(--Dyslexic-blue);
+    text-align: center;
+  }
+
+.RESULT_div1 { 
+color:var(--Dyslexic-blue);
+font-size:large;
+text-align: center;
+padding:1px;
+    margin:1px;
+}
+
+.RESULT_div2 {
+    color:var(--Dyslexic-blue);
+    font-size:x-large;
+    text-align: center; 
+    padding:1px;
+    margin:1px;
+}
+
+
+
+
+.confetti {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* Add your confetti styles here */
+}
+
+.box {
+  position: relative;
+
+  
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* Add any additional styles for the box here */
+}

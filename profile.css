@@ -1,0 +1,70 @@
+
+
+
+.container { 
+   border-radius: 8px;   
+   height: 50vh; display: 
+   flex;align-items: center;
+   justify-content: center; 
+   margin-top: 1px; padding-top:1px;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90vw;;
+  }
+
+  .col-4{
+    min-width: 300px;
+  }
+  .col-8{
+    min-width: 300px;
+  }
+.row{
+  width:90vw;
+}
+  .card{ border: 2px solid var(--Dyslexic-blue);   border-radius: 8px;    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); }
+  .avatar-ctn{ border-radius: 8px;background-color:var(--Dyslexic-Dyellow);text-align:center;}
+  .avatar{ border-radius: 8px;width:65%;border-bottom:1px solid rgba(0,0,0,0.125);}
+  
+.card-header{ border-radius: 8px;font-weight: bold;font-size: large;background-color: var(--Dyslexic-Dyellow);}
+.card-body{  
+  border-radius: 8px;font-weight: bold;background-color: var(--Dyslexic-yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.card-text{ border-radius: 8px;text-align:center;color:var(--Dyslexic-blue);width:100%;}
+
+
+    .avatar{
+      width:100px;
+      border: black 2px solid;
+      border-radius: 5px;
+      margin : 5px;
+    }
+
+
+
+
+.card-title{
+  text-align: center; 
+}
+     
+
+
+.Resultcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--Dyslexic-yellow);
+  border: black solid 3px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+
