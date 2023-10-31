@@ -7,7 +7,7 @@ nav { background-color:var(--Dyslexic-yellow); color:var(--Dyslexic-blue);     b
 nav ul{ display: flex;   margin: 10px 10px 10px 10px;      justify-content: space-between;    align-items:center;}
 nav li{ list-style:none;    padding: 5px 4px 0px 0px; }
 nav li a{color: var(--Dyslexic-gery);   text-decoration: none;   font-weight:bold;   padding: 5px 4px 0px 0px; }
-nav li button{color: var(--Dyslexic-gery); border: none;   text-decoration: none;   font-weight:bold;   padding: 5px 4px 0px 0px; }
+nav li button{color: var(--Dyslexic-gery); border: none; background-color: #fffecb;  text-decoration: none;   font-weight:bold;   padding: 5px 4px 0px 0px; }
 nav li label{   color: var(--Dyslexic-gery);   text-decoration: none;   font-weight:bold;   padding: 5px 4px 0px 0px; }
 nav h4{  font-size:1.5em; color: var(--Dyslexic-blue); text-align: center;  text-decoration: none;   font-weight:bold;  padding: 28px 0px 0px 0px;}
 nav li a:hover{    color: var(--Dyslexic-gray);    text-decoration: none;}
