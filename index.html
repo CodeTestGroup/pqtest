@@ -11,20 +11,9 @@
     <link rel="stylesheet" href="profile.css">
     <title>Profile</title>
 </head>
-<body><nav><div class="box"> <div><a href="/"><img src="mian.data/icon.png"  width="90"  id="icon" alt=""></a></div><div class="header">	<h4>.TITLE.</h4></div><div class="links"><ul><li><a href="/">Home</a></li><li><button onclick="changeColor() ">Change color</button></li><li><a href="/profile">Profile</a></li><li><a href="/auth/logout">Logout</a></li></ul></div> </div> </nav>
+<body><nav><div class="box"> <div><a href="/"><img src="mian.data/icon.png"  width="90"  id="icon" alt=""></a></div><div class="header">	<h4>.TITLE.</h4></div><div class="links"><ul><li><a href="#">Home</a></li><li><button onclick="changeColor() ">Change color</button></li><li><a href="#">Profile</a></li><li><a href="#">Logout</a></li></ul></div> </div> </nav>
 
-<script>
-    var colors = ["red", "blue", "green", "white", "yellow", "purple"];
-    var colorIndex = 0;
-    function changeColor() {
-        var col = document.getElementById("body");
-        if( colorIndex >= colors.length ) {
-            colorIndex = 0;
-        }
-        col.style.backgroundColor = colors[colorIndex];
-        colorIndex++;
-    }
-</script>
+\
     <body id='body'>
 
 <div class="container">
