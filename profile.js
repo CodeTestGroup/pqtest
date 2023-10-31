@@ -45,16 +45,7 @@ async function synchronousFetch(url) {
   return data;
 }
 
- var colors = ["red", "blue", "green", "white", "yellow", "purple"];
-    var colorIndex = 0;
-    function changeColor() {
-        var col = document.getElementById("body");
-        if( colorIndex >= colors.length ) {
-            colorIndex = 0;
-        }
-        col.style.backgroundColor = colors[colorIndex];
-        colorIndex++;
-    }
+
 function GET_QUIZCODE_RESULT(DATA){
      let totalQuestions=0
     let correctRESULT=0
